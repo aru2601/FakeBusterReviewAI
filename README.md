@@ -5,7 +5,7 @@ An end-to-end NLP system for detecting deceptive hotel reviews, with a productio
 > **F1 = 0.891 · Precision = 0.888 · Recall = 0.892 · ROC-AUC = 0.961**  
 > 10-fold stratified cross-validation on 1,600 labelled hotel reviews.
 
-<!-- ![FakeBusterReviewAI dashboard](docs/demo.gif) -->
+![FakeBusterAI dashboard](demo.png)
 
 ## The problem
 Deceptive online reviews distort consumer trust and platform credibility. FakeBusterReviewAI classifies hotel reviews as **genuine** or **deceptive** using a hybrid of n-gram language patterns and hand-engineered linguistic signals, then tests how well that model generalises beyond its training domain.
